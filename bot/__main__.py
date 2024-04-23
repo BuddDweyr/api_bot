@@ -1,7 +1,7 @@
 import asyncio
 import logging
-import handlers
-from config_reader import config
+from bot import handlers
+from bot.config_reader import config
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
