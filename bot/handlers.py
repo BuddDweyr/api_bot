@@ -13,7 +13,7 @@ async def start(message: Message):
 #docker-compose up --build в консоль при изменении любого скрипта
 
 
-@router.message(Command('help))
+@router.message(Command('help'))
 async def help(message: Message):
     await message.answer(f"/cat http_status_number - показывает картинку с выбранным http статусом")
 
